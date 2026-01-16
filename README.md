@@ -23,3 +23,11 @@ Built with **Python** and **Streamlit**, this tool simulates the observability s
 3. Run the application:
    ```bash
    streamlit run watchtower.py
+
+## 🎯 Purpose & Motivation
+Monitoring is the "heartbeat" of MLOps. Most ML projects fail not because the model is bad, but because the infrastructure supporting it fails silently.
+
+I built **The Watchtower** to:
+1.  **Bridge the Gap:** Transition from writing static Python scripts to building dynamic, live-updating infrastructure tools.
+2.  **Resource Profiling:** Provide a way to profile how much memory a specific model (like a Transformer or CNN) consumes during inference before moving it to production.
+3.  **Simulate Production Observability:** Practice the core principles of the "SRE (Site Reliability Engineering) Golden Signals"—specifically **Saturation** (how full your resources are).
